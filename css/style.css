@@ -20,6 +20,10 @@ header a{
   text-decoration: none;
 }
 
+header a:hover{
+  color: #212121;
+}
+
 h1{
   font-size: 3.75em;
 }
