@@ -12,6 +12,12 @@ a{
 
 header{
   font-size: 14px;
+  color: #616161;
+}
+
+header a{
+  color: #616161;
+  text-decoration: none;
 }
 
 h1{
