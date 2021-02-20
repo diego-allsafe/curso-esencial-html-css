@@ -48,7 +48,7 @@ pre{
 }
 
 .hero{
-  background: url('../img/patron-1.png');
+  background-image: linear-gradient(to top, rgba(255,255,255,.3), transparent), url('../img/patron-1.png');
   /*background-repeat: no-repeat;*/
   /*background-position: left;*/
   /*background-size: cover;*/
