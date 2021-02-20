@@ -46,3 +46,9 @@ h3{
 pre{
   background:#FEC62E;
 }
+
+.hero{
+  background: red;
+  height: 350px;
+  /*width: 100%;*/
+}
