@@ -48,7 +48,10 @@ pre{
 }
 
 .hero{
-  background: red;
+  background: url('../img/patron-1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-size: cover;*/
   height: 350px;
   /*width: 100%;*/
 }
