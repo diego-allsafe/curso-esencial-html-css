@@ -1,5 +1,6 @@
 :root{
   font-size: 18px;
+  --colorcito: red;
 }
 
 body{
@@ -56,10 +57,14 @@ pre{
   /*width: 100%;*/
 }
 
-h1::after{
+h3::before{
   content: '-';
 }
 
-h1::before{
-  content: '-';
+h3::after{
+  content: '';
+  width: 32px;
+  height: 4px;
+  background: var(--gray30);
+  display: inline-block;
 }
