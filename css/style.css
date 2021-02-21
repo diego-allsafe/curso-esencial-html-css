@@ -1,30 +1,32 @@
 :root{
   font-size: 18px;
-  --colorcito: red;
+  --gray30: #212121;
+  --gray20: #212429;
+  --gray10: #616161;
 }
 
 body{
-  color:#212121;
+  color: var(--gray30);
   font-family: 'Roboto', sans-serif;
   /*font-family: Arial;*/
 }
 
 a{
-  color: #212121;
+  color: var(--gray30) ;
 }
 
 header{
   font-size: 14px;
-  color: #616161;
+  color: var(--gray10);
 }
 
 header a{
-  color: #616161;
+  color: var(--gray10);
   text-decoration: none;
 }
 
 header a:hover{
-  color: #212121;
+  color: var(--gray30);
 }
 
 nav details summary{
@@ -57,8 +59,12 @@ pre{
   /*width: 100%;*/
 }
 
+h3{
+  counter-increment: titleList;
+}
+
 h3::before{
-  content: '-';
+  content: counter(titleList);
 }
 
 h3::after{
