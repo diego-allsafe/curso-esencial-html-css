@@ -59,15 +59,19 @@ pre{
   /*width: 100%;*/
 }
 
-h3{
+.section.content{
+  counter-reset: titleList;
+}
+
+.section.content h3{
   counter-increment: titleList;
 }
 
-h3::before{
-  content: counter(titleList);
+.section.content h3::before{
+  content: counter(titleList, decimal);
 }
 
-h3::after{
+.section.content h3::after{
   content: '';
   width: 32px;
   height: 4px;
